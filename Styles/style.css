@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "QuicksandBooks";
+  src: url("../fonts/Quicksand_Book-webfont.eot");
+  src: url("../fonts/Quicksand_Book-webfont.svg") format("svg"),
+    url("../fonts/Quicksand_Book-webfont.ttf") format("ttf"),
+    url("../fonts/Quicksand_Book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  color: #ffffff;
+  background-image: url("../images/bg.jpg");
+  text-align: center;
+  margin: 0;
+  font-size: 90%;
+}
+a {
+  color: #b5c1ad;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
+div.header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 50;
+  background-image: url("../images/bg-header-footer.jpg");
+  height: 100px;
+  padding: 0px 0px 0px 0px;
+}
+#logo {
+  margin-bottom: 20px;
+}
+div.navbar {
+  font-family: "QuicksandBooks";
+  float: right;
+  padding: 45px 0px 0px 0px;
+  text-align: right;
+}
+div.header a {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+.main-heading {
+  text-transform: uppercase;
+}
+.wrapper {
+  width: 960px;
+  text-align: left;
+  margin: 0px auto;
+  background-image: url("../images/bg-triangle.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+.intro {
+  clear: left;
+}
+.main-story {
+  background-image: url("../images/triangles.png");
+  background-position: 122px 142px;
+  background-repeat: no-repeat;
+  height: 570px;
+}
+h1,
+h2 {
+  font-family: "QuicksandBooks", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 240%;
+  margin-top: 140px;
+}
+.date {
+  font-family: "QuicksandBooks";
+  color: #b5c1ad;
+}
+div.more-articles {
+  border-top: 1.5px solid white;
+}
+h2 {
+  text-align: left;
+}
+.more-articles p {
+  text-align: left;
+  border-bottom: 0.5px solid white;
+  padding-bottom: 15px;
+}
+.more-articles p:last-child {
+  border-bottom: none;
+}
+.footer {
+  background-image: url("../images/bg-header-footer.jpg");
+  width: 100%;
+  height: 40px;
+}
+div.footer {
+  clear: both;
+  margin-top: 5px;
+}
+.footer a {
+  margin-right: 3px;
+  color: #807c72;
+}
+.footer p {
+  text-align: right;
+  text-transform: capitalize;
+  font-size: 80%;
+  padding: 4px;
+}
